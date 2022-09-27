@@ -1,0 +1,313 @@
+body{
+  font-family: 'Montserrat',sans-serif;
+  background-color: #000;
+}
+
+h1{
+  color:#fff;
+  font-weight: bold;
+  text-align: left;
+}
+
+h4{
+  color:#fff;
+  margin:5% 0;
+  text-align: left;
+}
+
+
+
+/* NAVBAR */
+
+.navbar{
+  background-color:  #000;
+  padding: 3% 5%;
+  border-bottom: 2px solid #fff;
+  margin: 0;
+}
+
+.nav-link{
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-link:hover{
+  background-color: #16213E;
+  border-radius: 8%;
+  font-weight: bold;
+  color: #E64848;
+}
+
+.button{
+  color: #fff;
+}
+
+.navbar-brand{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navbar-brand:hover{
+  color: #fff;
+}
+/* ------------------------------------------------------------ */
+/* title */
+
+.title{
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin: 5%;
+}
+
+.title-image{
+  height: 500px;
+  text-align: right;
+  margin-left: 27.8%;
+}
+
+
+/* ------------------------------------------------------------ */
+/* skill */
+
+.skill{
+  background-color: #000;
+  text-align: center;
+  margin: 5%;
+}
+
+h2{
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.skill-heading{
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin: 5%;
+}
+
+.skill-text{
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  padding: 6%;
+}
+
+.icon{
+  padding: 6%;
+  color: #ffffff;
+}
+
+.skill-sec{
+  background-color: #16213E;
+  border-radius: 50px;
+  width: 40%;
+  margin-right: 2%;
+  margin-left:4%;
+}
+
+.skill-section{
+  background-color: #E64848;
+  border-radius: 50px;
+  width: 40%;
+  margin-left: 4%;
+  margin-right: 2%;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.pro{
+  text-align: center;
+}
+
+.pro-img{
+  height: 450px;
+  padding: 30px;
+}
+.pro-image{
+  height: 350px;
+  padding: 30px;
+}
+
+.project{
+  background-color: #16213E;
+  margin: 0 10% 2% 10%;
+  border-radius: 50px;
+  padding: 5%;
+}
+
+h3{
+  text-align: left;
+  font-size: 2rem;
+  color: #fff;
+  padding: 2%;
+}
+
+.list{
+  color: #fff;
+  margin-left: 5%;
+  line-height: 2rem;
+}
+
+.points{
+  padding: 10px;
+}
+
+/* testimonial */
+#testimonials{
+  text-align: center;
+  color:#fff;
+  background-color:#E64848;
+  margin: 5%;
+  padding: 5%;
+  border-radius: 50px;
+}
+
+#press{
+  background-color:#E64848;
+  text-align: center;
+  padding-bottom:3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding:3% 15%;
+}
+
+em{
+  color: #fff;
+  padding: 3%;
+}
+
+h5{
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+  text-align: center;
+}
+
+a{
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#footer{
+  padding:50px;
+  text-align: center;
+}
+
+p{
+  color: #fff;
+  font-size: 18px;
+}
+
+.hire{
+  text-align: center;
+}
+
+@media (min-width:150px) and (max-width:900px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .title{
+  }
+  .nav-link{
+    text-align: center;
+  }
+  .title-image{
+    height: 200px;
+  }
+
+  .skill-heading{
+    font-size:1.5rem;
+  }
+  .skill-sec{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .skill-section{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .pro{
+    margin: 20px;
+  }
+  h1{
+    margin-right: 0;
+  }
+  h4{
+    font-size: 18px;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+
+  h5{
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .project{
+    margin: 45px;
+  }
+
+  .pro-img{
+    height: 110px;
+    padding: 10px;
+  }
+  .pro-image{
+    height: 80px;
+    padding: 10px;
+  }
+
+  .testimonial-text{
+    font-size: 1rem;
+  }
+
+  .intership{
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  #nav-section{
+    margin: 0;
+    padding: 0;
+  }
+
+  #skills{
+    margin: 0;
+    padding: 0;
+  }
+
+  #project{
+    margin: 0;
+    padding: 0;
+  }
+
+  #hireme{
+    margin: 0;
+    padding: 0;
+  }
+  #interships{
+    margin: 0;
+    padding: 0;
+  }
+
+}
